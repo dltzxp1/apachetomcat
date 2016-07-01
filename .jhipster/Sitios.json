@@ -1,0 +1,144 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "cantons",
+            "otherEntityName": "canton",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nombre"
+        },
+        {
+            "relationshipId": 2,
+            "relationshipName": "categories",
+            "otherEntityName": "category",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nombre"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "nombre",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "64"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "descripcion",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "1024"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "paginaweb",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "128"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "mail",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "64"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "facebook",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "128"
+        },
+        {
+            "fieldId": 6,
+            "fieldName": "twitter",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "128"
+        },
+        {
+            "fieldId": 7,
+            "fieldName": "direccion",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "256"
+        },
+        {
+            "fieldId": 8,
+            "fieldName": "telefono",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "64"
+        },
+        {
+            "fieldId": 9,
+            "fieldName": "latitud",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "20"
+        },
+        {
+            "fieldId": 10,
+            "fieldName": "longitud",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "20"
+        }
+    ],
+    "changelogDate": "20160616152105",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

@@ -1,0 +1,69 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "nombre",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "50"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "descripcion",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "512"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "capital",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "50"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "poblacion",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "min",
+                "max"
+            ],
+            "fieldValidateRulesMin": "1",
+            "fieldValidateRulesMax": "10000"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "region",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "50"
+        }
+    ],
+    "changelogDate": "20160616131237",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

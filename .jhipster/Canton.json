@@ -1,0 +1,49 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "provinces",
+            "otherEntityName": "province",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nombre"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "nombre",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "50"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "descripcion",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "512"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "poblacion",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20160616135536",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

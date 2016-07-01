@@ -1,0 +1,33 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "nombre",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "40"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "descripcion",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "512"
+        }
+    ],
+    "changelogDate": "20160616140138",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

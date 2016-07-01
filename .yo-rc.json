@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "apptur",
+    "packageName": "flow.xg.tc",
+    "packageFolder": "flow/xg/tc",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "d26678d9d13c5ff5bd7b5122618a38fda8299e79",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}

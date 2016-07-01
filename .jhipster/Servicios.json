@@ -1,0 +1,37 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "siti",
+            "otherEntityName": "sitios",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nombre"
+        },
+        {
+            "relationshipId": 2,
+            "relationshipName": "catalogos",
+            "otherEntityName": "catalogo",
+            "relationshipType": "many-to-many",
+            "otherEntityField": "nombre",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "codigo",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "10"
+        }
+    ],
+    "changelogDate": "20160616210247",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

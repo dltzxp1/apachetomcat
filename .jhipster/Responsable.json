@@ -1,0 +1,65 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "activi",
+            "otherEntityName": "actividad",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nombre"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "nombre",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "128"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "correo",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "64"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "telefono",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "1",
+            "fieldValidateRulesMaxlength": "64"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "celular",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "128"
+        }
+    ],
+    "changelogDate": "20160616154303",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}
